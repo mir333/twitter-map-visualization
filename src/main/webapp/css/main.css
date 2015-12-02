@@ -1,0 +1,26 @@
+.aui .twitter-data-visualization{
+    position: relative;
+
+    .control-buttons{
+        position: absolute;
+        z-index: 99;
+        right: 35px;
+        padding: 10px;
+    }
+    .control-log{
+        position: absolute;
+        background-color: lightgrey;
+        top:55px;
+        z-index: 99;
+        right: 100px;
+        padding: 10px;
+    }
+
+    .btn{
+        font-size: 11px;
+        padding: 13px;
+    }
+    .google-map{
+        height: 675px;
+    }
+}
