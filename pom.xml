@@ -55,6 +55,15 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>oss-sonatype</id>
+            <name>oss-sonatype</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>com.liferay.portal</groupId>
@@ -115,9 +124,9 @@
             <version>1.2</version>
         </dependency>
         <dependency>
-            <groupId>im.ligas</groupId>
+            <groupId>im.ligas.liferay</groupId>
             <artifactId>improved-mvcportlet-lib</artifactId>
-            <version>1.0</version>
+            <version>1.0.0</version>
         </dependency>
 
     </dependencies>
